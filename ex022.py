@@ -7,9 +7,9 @@ Criar um programa que leia o nome  completo de uma pessoa e mostre:
 - Quantas letras tem o primeiro nome""")
 
 print('Desafio 022')
-nome = str(input('Digite o seu nome completo: '))
-print(nome.upper())
-print(nome.lower())
+nome = str(input('Digite o seu nome completo: ')).strip()
+print('Seu nome em maiúsculo: 'nome.upper())
+print('Seu nome em minúsculo: 'nome.lower())
 lista_nome = nome.split()
 letras = '-'.join(lista_nome)
 print('O seu nome tem {} letras.'.format(len(letras)-letras.count('-')))
