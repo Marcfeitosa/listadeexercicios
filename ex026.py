@@ -2,7 +2,7 @@ print("""Exercício 026
 Fazer um programa que leia uma frase pelo teclado e mostre:
     - Quantas vezes aparece a letra 'a'.
     - Em que posição ela aparece a primeira vez.
-    - Em aue posição ela aparece a última vez.""")
+    - Em que posição ela aparece a última vez.""")
 
 frase = input('Digite uma frase: ').strip()
 frasemin = frase.lower()
