@@ -24,29 +24,29 @@ sleep(1)
 print()
 print('CPU Jogou: ')
 print(emojify(cpu[jogadacpu]))
-    if jogadacpu == cpu[0] and jjogador == jogador[2]:
-        print(emojify(jogador[jjogador]), ' Você Ganhou!!!')
-    elif jogadacpu == cpu[0] and jjogador == jogador[0]:
-        print(emojify(jogador[jjogador]), ' Jogo empatado mané')
-    elif jogadacpu == cpu[0] and jjogador == jogador[1]:
-        print(emojify(jogador[jjogador]), ' Você perdeu mané')
-    elif jogadacpu == cpu[0] and jjogador == jogador[4]:
-        print(emojify(jogador[jjogador]), ' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
-    elif jogadacpu == cpu[1] and jjogador == jogador[0]:
-        print(emojify(jogador[jjogador]), ' Você Ganhou!!!')
-    elif jogadacpu == cpu[1] and jjogador == jogador[1]:
-        print(emojify(jogador[jjogador]), ' Jogo empatado mané')
-    elif jogadacpu == cpu[1] and jjogador == jogador[2]:
-        print(emojify(jogador[jjogador]), ' Você perdeu mané')
-    elif jogadacpu == cpu[1] and jjogador == jogador[4]:
-        print(emojify(jogador[jjogador]), ' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
-    elif jogadacpu == cpu[2] and jjogador == jogador[0]:
-        print(emojify(jogador[jjogador]), ' Você perdeu mané')
-    elif jogadacpu == cpu[2] and jjogador == jogador[1]:
-        print(emojify(jogador[jjogador]), ' Você Ganhou!!!')
-    elif jogadacpu == cpu[2] and jjogador == jogador[2]:
-        print(emojify(jogador[jjogador]), ' Jogo empatado mané')
-    elif jogadacpu == cpu[2] and jjogador == jogador[4]:
-        print(emojify(jogador[jjogador]), ' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
-    else:
-        print(' TU NÃO SABE LER O ANTA???? DIGITA SÓ AS OPÇÕES QUE EU TE DEI... BURRO!!!!')
+if jogadacpu == 0 and jjogador == 2:
+    print(' Você Ganhou!!!')
+elif jogadacpu == 0 and jjogador == 0:
+    print(' Jogo empatado mané')
+elif jogadacpu == 0 and jjogador == 1:
+    print(' Você perdeu mané')
+elif jogadacpu == 0 and jjogador == 4:
+    print(' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
+elif jogadacpu == 1 and jjogador == 0:
+    print(' Você Ganhou!!!')
+elif jogadacpu == 1 and jjogador == 1:
+    print(' Jogo empatado mané')
+elif jogadacpu == 1 and jjogador == 2:
+    print(' Você perdeu mané')
+elif jogadacpu == 1 and jjogador == 4:
+    print(' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
+elif jogadacpu == 2 and jjogador == 0:
+    print(' Você perdeu mané')
+elif jogadacpu == 2 and jjogador == 1:
+    print(' Você Ganhou!!!')
+elif jogadacpu == 2 and jjogador == 2:
+    print(' Jogo empatado mané')
+elif jogadacpu == 2 and jjogador == 4:
+    print(' Você é do METAAAAAAALLL, VOCÊ GANHOU FERA!!!!')
+else:
+    print(' TU NÃO SABE LER O ANTA???? DIGITA SÓ AS OPÇÕES QUE EU TE DEI... BURRO!!!!')
