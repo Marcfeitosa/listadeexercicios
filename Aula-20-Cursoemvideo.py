@@ -6,7 +6,7 @@ def lin():
 lin()
 print(' CURSO EM VÍDEO  ')
 lin()
-print(' APRINDA PYTHON  ')
+print(' APRENDA PYTHON  ')
 lin()
 print(' MÁRCIO FEITOSA  ')
 lin()
@@ -27,7 +27,7 @@ def titulo(txt):
 
 #inputs do programa principal
 titulo('  CURSO EM VÍDEO  ')
-titulo(' APRINDA PYTHON  ')
+titulo(' APRENDA PYTHON  ')
 titulo(' MÁRCIO FEITOSA  ')
 
 
