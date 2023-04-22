@@ -14,6 +14,7 @@ def ajuda(comando):
     print(cores['branco'])
     help(comando)
     print(cores['limpa'])
+    sleep(2)
 
 
 def titulo(msg, cor='limpa'):
