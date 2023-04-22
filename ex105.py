@@ -47,3 +47,4 @@ while True:
 # Chamada da função e impressão do resultado
 info_notas = notas(*notas_aluno, situacao=True)
 print(info_notas)
+help(notas)
