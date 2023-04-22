@@ -16,4 +16,7 @@ def LeiaInt(msg):
             print('\033[0;31mERRO: por favor, digite um número inteiro válido.\033[m')
             continue
         else:
-            return n
+            return print(f'Você digitou: {n}')
+
+#programa principal
+n = LeiaInt('Digite um número inteiro: ')

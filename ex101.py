@@ -4,9 +4,8 @@ Desafio 101:
 Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal, indicando se uma pessoa tem voto NEGADO, OPCIONAL ou OBRIGATÓRIO nas eleições.
 """
 
-from datetime import date
-
 def voto(data_nascimento):
+    from datetime import date
     idade = date.today() - data_nascimento
     anos = idade.days // 365
     meses = (idade.days % 365) // 30
@@ -18,7 +17,8 @@ def voto(data_nascimento):
         return f'Com {anos} anos, voto OBRIGATÓRIO.'
     else:
         return f'Com {anos} anos, voto OPCIONAL.'
-        
+
+# Programa principal        
 data_str = input('Digite a data de nascimento no formato DD/MM/AAAA: ')
 dia, mes, ano = map(int, data_str.split('/'))
 data_nascimento = date(ano, mes, dia)

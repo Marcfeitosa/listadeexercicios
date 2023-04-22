@@ -11,8 +11,8 @@ def ficha(nome='', gols=0):
         nome = '<desconhecido>'
     print(f'O jogador {nome} fez {gols} gol(s) no campeonato.')
 
-nome = input('Nome do jogador: ')
-gols = input('Número de gols: ')
+nome = str(input('Nome do jogador: '))
+gols = int(input('Número de gols: '))
 
 if gols.isnumeric():
     gols = int(gols)

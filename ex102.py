@@ -26,4 +26,4 @@ if mostrar == 'S':
 else:
     mostrar = False
 print(fatorial(n, mostrar))
-
+help(fatorial)
